@@ -1,0 +1,13 @@
+@import "~taro-ui/dist/style/components/checkbox.scss";
+@import "~taro-ui/dist/style/components/icon.scss";
+@import "~taro-ui/dist/style/components/button.scss";
+@import "~taro-ui/dist/style/components/icon.scss";
+@import "~taro-ui/dist/style/components/textarea.scss";
+
+.add-new-button{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-radius: 0;
+  width: 100%;
+}
