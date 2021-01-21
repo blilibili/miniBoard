@@ -78,6 +78,7 @@ export default class Index extends Taro.Component {
   }
 
   handleChangePhone(val) {
+    console.log('修改')
     this.setState({
       phone: val
     })
