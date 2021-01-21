@@ -3,6 +3,7 @@
 @import "~taro-ui/dist/style/components/button.scss";
 @import "~taro-ui/dist/style/components/icon.scss";
 @import "~taro-ui/dist/style/components/textarea.scss";
+@import "~taro-ui/dist/style/components/modal.scss";
 
 .add-new-button{
   position: fixed;
@@ -10,4 +11,19 @@
   left: 0;
   border-radius: 0;
   width: 100%;
+}
+
+.page-index{
+  padding-bottom: 100px;
+}
+
+.task-content-container{
+  height: 95%;
+}
+
+.no-words{
+  //color: #fefefe;
+  font-size: 32px;
+  text-align: center;
+  padding-top: 15px;
 }
